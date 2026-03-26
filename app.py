@@ -46,8 +46,8 @@ COURSE_INFO = COURSE_OPTIONS[0]
 
 def build_whatsapp_share_url(home_url):
     message = (
-        "Acabei de me inscrever no programa Rio + Elas, com cursos gratuitos de "
-        "qualificacao profissional da Prefeitura do Rio de Janeiro. Confira aqui: "
+        "Acabei de me inscrever em uma oportunidade de qualificacao profissional. "
+        "Confira aqui: "
         f"{home_url}"
     )
     return f"https://wa.me/?text={quote(message)}"
@@ -804,7 +804,7 @@ TEMPLATE_WIZARD = r'''
                 padding: 8px;
             }
             .input-with-action {
-                grid-template-columns: minmax(0, 1fr) 48px;
+                grid-template-columns: minmax(0, 1fr);
                 width: 100% !important;
                 max-width: 100% !important;
             }
