@@ -74,7 +74,7 @@ TEMPLATE_WIZARD = r'''
     <meta charset="UTF-8">
     <!-- IMPORTANTE! viewport responsivo para celular -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Rio + Elas</title>
+    <title>FGM</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/assistant.css">
     <link href="https://fonts.googleapis.com/css2?family=Wise:wght@400;700;900&display=swap" rel="stylesheet">
@@ -925,37 +925,42 @@ TEMPLATE_WIZARD = r'''
                 <section class="wizard-panel" data-step="index">
                     <div class="hero-grid">
                         <div class="hero-card">
-                                <span class="hero-pill">PROJETO: HELP DOMESTICA</span>
-                                <h1 class="hero-title">TREINAMENTO GRATUITO PARA BABAS PROFISSIONAIS</h1>
+                                <span class="hero-pill">PROJETO: HELP DOMÉSTICA</span>
+                                <h1 class="hero-title">TREINAMENTO GRATUITO PARA BABÁS PROFISSIONAIS</h1>
                             <p class="hero-subtitle">
-                                    Para mulheres que querem trabalhar como baba ou que ja trabalham em casa de familia!!<br>
-                                    Local: Vargem Grande - Estrada do Sacarrao 251, MAPEV
+                                    Para mulheres que querem trabalhar como babá ou que já trabalham em casa de família!!<br>
+                                    📍Local: Vargem Grande - Estrada do Sacarrão 251, MAPEV
                             </p>
                             <div class="hero-highlights">
                                 <div class="hero-highlight">
-                                        <strong>CONTEUDO</strong>
-                                        Amamentacao e rotina do sono infantil.
+                                        <strong>CONTEÚDO</strong>
+                                        AMAMENTAÇÃO<br>
+                                        ROTINA DO SONO INFANTIL
                                 </div>
                                 <div class="hero-highlight">
                                     <strong>BENEFÍCIOS</strong>
-                                        100% gratuito, com certificacao e capacitacao profissional completa.
+                                        ✅100% Gratuito<br>
+                                        📃Com Certificação<br>
+                                        👥Capacitação Profissional Completa
                                 </div>
                                 <div class="hero-highlight">
-                                        <strong>INFORMACOES IMPORTANTES</strong>
+                                        <strong>INFORMAÇÕES IMPORTANTES</strong>
                                     <span class="info-rotativo">
-                                            <span class="info-item">Apoio para formalizacao</span>
-                                            <span class="info-item" style="display:none;">Novos conhecimentos para atuar como baba profissional</span>
-                                            <span class="info-item" style="display:none;">Vagas limitadas e inscricoes para maiores de 18 anos</span>
+                                            <span class="info-item">👩‍💼Apoio para Formalização</span>
+                                            <span class="info-item" style="display:none;">📚Novos Conhecimentos</span>
+                                            <span class="info-item" style="display:none;">❗Vagas Limitadas</span>
+                                            <span class="info-item" style="display:none;">⚠️Para Maiores de 18 Anos</span>
                                     </span>
                                 </div>
                             </div>
                             <div class="mini-badges">
-                                    <span class="mini-badge">100% Gratuito</span>
-                                    <span class="mini-badge">Com Certificacao</span>
-                                    <span class="mini-badge">Capacitacao Completa</span>
-                                    <span class="mini-badge">Apoio para Formalizacao</span>
-                                    <span class="mini-badge">Vagas Limitadas</span>
-                                    <span class="mini-badge">Maiores de 18 Anos</span>
+                                    <span class="mini-badge">✅100% Gratuito</span>
+                                    <span class="mini-badge">📃Com Certificação</span>
+                                    <span class="mini-badge">👥Capacitação Profissional Completa</span>
+                                    <span class="mini-badge">👩‍💼Apoio para Formalização</span>
+                                    <span class="mini-badge">📚Novos Conhecimentos</span>
+                                    <span class="mini-badge">❗Vagas Limitadas</span>
+                                    <span class="mini-badge">⚠️Para Maiores de 18 Anos</span>
                             </div>
                             <div class="panel-actions">
                                                             <script>
@@ -1701,7 +1706,7 @@ TEMPLATE_CONFIRMACAO = r'''
     <meta charset="UTF-8">
     <!-- IMPORTANTE! viewport responsivo para celular -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Inscrição realizada com sucesso</title>
+    <title>FGM</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/assistant.css">
     <link href="https://fonts.googleapis.com/css2?family=Wise:wght@400;700;900&display=swap" rel="stylesheet">
