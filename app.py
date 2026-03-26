@@ -953,15 +953,6 @@ TEMPLATE_WIZARD = r'''
                                     </span>
                                 </div>
                             </div>
-                            <div class="mini-badges">
-                                    <span class="mini-badge">✅100% Gratuito</span>
-                                    <span class="mini-badge">📃Com Certificação</span>
-                                    <span class="mini-badge">👥Capacitação Profissional Completa</span>
-                                    <span class="mini-badge">👩‍💼Apoio para Formalização</span>
-                                    <span class="mini-badge">📚Novos Conhecimentos</span>
-                                    <span class="mini-badge">❗Vagas Limitadas</span>
-                                    <span class="mini-badge">⚠️Para Maiores de 18 Anos</span>
-                            </div>
                             <div class="panel-actions">
                                                             <script>
                                                             // Efeito rotativo para as informações
