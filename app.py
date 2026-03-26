@@ -42,25 +42,6 @@ COURSE_OPTIONS = [
 ]
 COURSE_OPTIONS_BY_ID = {option["id"]: option for option in COURSE_OPTIONS}
 COURSE_INFO = COURSE_OPTIONS[0]
-META_PIXEL = """
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '26419185324388434');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=26419185324388434&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-"""
 
 
 def build_whatsapp_share_url(home_url):
@@ -916,7 +897,6 @@ TEMPLATE_WIZARD = r'''
             }
         }
     </style>
-    {{ meta_pixel|safe }}
 </head>
 <body data-start-step="{{ current_step }}">
     <script src="/static/assistant.js"></script>
@@ -2033,7 +2013,6 @@ TEMPLATE_CONFIRMACAO = r'''
             }
         }
     </style>
-    {{ meta_pixel|safe }}
 </head>
 <body>
     <script src="/static/assistant.js"></script>
@@ -2236,7 +2215,6 @@ def render_wizard(form_data=None, errors=None, current_step="index"):
         errors=errors or {},
         form_data=current_form_data,
         generos=["Feminino", "Masculino", "Outro", "Prefiro não dizer"],
-        meta_pixel=META_PIXEL,
     )
 
 
@@ -2307,11 +2285,10 @@ def confirmacao():
     if not protocolo:
         return redirect(url_for("home"))
 
-    home_url = url_for("home", _external=True)
+    home_url = "https://help-domestica-baba-profissionais.onrender.com"
 
     return render_template_string(
         TEMPLATE_CONFIRMACAO,
-        meta_pixel=META_PIXEL,
         protocolo=protocolo,
         whatsapp_share_url=build_whatsapp_share_url(home_url),
     )
